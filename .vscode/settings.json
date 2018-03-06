@@ -1,0 +1,30 @@
+{
+    "latex-workshop.latex.toolchain": [
+      {
+        "command": "bash",
+        "args": [
+          "-i",
+          "../bin/report"
+        ]
+      }
+    ],
+    "latex-workshop.latex.outputDir": "out",
+    "latex-workshop.latex.clean.enabled": false,
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "latex-workshop.latex.autoBuild.onSave.enabled": true,
+    "latex-workshop.latex.autoBuild.onTexChange.enabled": false,
+    "spellright.groupDictionaries": false,
+    "spellright.language": "en-GB",
+    "files.exclude": {
+      "**/out": true,
+      "report/pyg": false
+    },
+    "editor.wordWrap": "bounded",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "material-icon-theme.folders.associations": {
+      "report": "docs",
+      "pyg": "temp",
+      "bin": "config"
+    }
+  }
+  

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -m
+bin="$(dirname $0)"
+if bash "$bin/pyg"; then
+  bash "$bin/tex"
+fi

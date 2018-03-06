@@ -1,0 +1,17 @@
+\BOOKMARK [-1][-]{part.1}{\040Research}{}% 1
+\BOOKMARK [0][-]{section.0.1}{Technology\040-\040Wider\040Context}{part.1}% 2
+\BOOKMARK [1][-]{section.0.2}{Web\040Services\040Technology}{section.0.1}% 3
+\BOOKMARK [1][-]{section.0.3}{REST\040as\040an\040Alternative\040to\040Web\040Services}{section.0.1}% 4
+\BOOKMARK [1][-]{section.0.4}{Examples\040of\040Web\040Services}{section.0.1}% 5
+\BOOKMARK [-1][-]{part.2}{\040Implementation}{}% 6
+\BOOKMARK [0][-]{section.0.5}{Web\040Service\040Proposal}{part.2}% 7
+\BOOKMARK [1][-]{subsection.0.5.1}{Project\040Name}{section.0.5}% 8
+\BOOKMARK [2][-]{subsection.0.5.2}{Overview\040of\040the\040Project}{subsection.0.5.1}% 9
+\BOOKMARK [2][-]{subsection.0.5.3}{External\040Web\040Services\040to\040Be\040Consumed}{subsection.0.5.1}% 10
+\BOOKMARK [2][-]{subsection.0.5.4}{What\040Will\040Be\040Exposed\040in\040My\040Web\040Service}{subsection.0.5.1}% 11
+\BOOKMARK [2][-]{subsection.0.5.5}{Initial\040Database\040Schema}{subsection.0.5.1}% 12
+\BOOKMARK [2][-]{subsection.0.5.6}{Initial\040Wireframes\040/\040UI\040Ideas}{subsection.0.5.1}% 13
+\BOOKMARK [1][-]{section.0.6}{Engineering\040Approach}{section.0.5}% 14
+\BOOKMARK [1][-]{section.0.7}{Project\040Management}{section.0.5}% 15
+\BOOKMARK [1][-]{section.0.8}{Development}{section.0.5}% 16
+\BOOKMARK [2][-]{subsection.0.8.1}{Example\040syntax\040highlighting}{section.0.8}% 17
