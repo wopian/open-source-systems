@@ -23,16 +23,19 @@ if ! [ -f "$pyg/definitions.cache" ]; then
 else
   defs=$(<"$pyg/definitions.cache")
 fi
-# Generate syntax highlighting for Crystal files
-for file in $(find "$root/src" \( -name '*.php' \) -print)
+# Generate syntax highlighting for PHP and HTML files
+for file in $(find "$root/src" \( -name '*.php' -o -name '*.html' \) -print)
 do
   FILE="${file#$root/}"
   DIR=$(dirname "${FILE}")
-  NAME=$(basename "${FILE}" .php)
+  # NAME=$(basename "${FILE}" .php)
+  FILENAME=$(basename "${FILE}")
+  NAME="${FILENAME%.*}"
+  EXT="${FILENAME##*.}"
   if ! cmp --silent "$file" "$pyg/$DIR/$NAME.cache"; then
     mkdir -p "$pyg/$DIR"
     cp "$file" "$pyg/$DIR/$NAME.cache"
     echo "$defs$(pygmentize -f latex -O linenos=1,verboptions=numberblanklines=0 $file)" > "$pyg/$DIR/$NAME.tex"
-    echo -e "${green}pygmented: ${black}$DIR/${reset}${yellow}$NAME.php${reset}"
+    echo -e "${green}pygmented: ${black}$DIR/${reset}${yellow}$NAME.$EXT${reset}"
   fi
 done

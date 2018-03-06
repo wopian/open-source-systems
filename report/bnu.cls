@@ -23,7 +23,7 @@
 \titleformat{\chapter}[display]
 {\centering\normalfont\Large\bfseries}{\chaptername\ \thechapter}{0.8em}{\LARGE}
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
-\addto\captionsbritish{\renewcommand{\contentsname}{\hfill\bfseries\LARGE Summary\hfill}}\addto\captionsbritish{\renewcommand{\listfigurename}{\hfill\bfseries\LARGE List of Figures}}
+\addto\captionsbritish{\renewcommand{\contentsname}{\hfill\bfseries\LARGE Summary\hfill}}\addto\captionsbritish{\renewcommand{\listfigurename}{\hfill\bfseries\LARGE List of Source Code}}
 \addto\captionsbritish{\renewcommand{\listtablename}{\hfill\bfseries\LARGE List of Tables}}
 \addto\captionsbritish{\renewcommand{\cftaftertoctitle}{\hfill}}
 \addto\captionsbritish{\renewcommand{\cftafterloftitle}{\hfill}}
@@ -69,9 +69,6 @@
 % Non-float figure captioning
 \RequirePackage{caption}
 % Spacing
-\setlength{\parindent}{0em} % 0.2cm
-\setlength{\parskip}{1em}
-\setlength{\footnotesep}{1.1em}
 \makeatletter
   \renewcommand\@makefntext[1]{%
   \hspace*{-2em}
@@ -81,5 +78,8 @@
   \@thefnmark\hspace{0.8em}}%       or after \@thefnmark, aligning the footnote
   #1}%                  marks to the right or to the left, respectively
 \makeatother
+\setlength{\parindent}{0em} % 0.2cm
+\setlength{\parskip}{1em}
+\setlength{\footnotesep}{1.1em}
 \hbadness=10000
 \hfuzz=50pt
