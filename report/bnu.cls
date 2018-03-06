@@ -10,10 +10,9 @@
 \RequirePackage{subfiles}
 \RequirePackage{enumitem}
 \RequirePackage[useregional]{datetime2}
-% Non-float figure captioning
-\RequirePackage[hang,small,bf]{caption}
 % Image
 \RequirePackage{graphicx}
+\graphicspath{{img/}}
 % Chapter, Part and Section numbering
 \RequirePackage{tocloft}
 \RequirePackage{titlesec}
@@ -67,6 +66,8 @@
   citecolor={blue!50!black},
   urlcolor={blue!80!black},
 }
+% Non-float figure captioning
+\RequirePackage{caption}
 % Spacing
 \setlength{\parindent}{0em} % 0.2cm
 \setlength{\parskip}{1em}
