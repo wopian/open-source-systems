@@ -27,5 +27,3 @@ deploy:
   keep-history: false
   on:
     branch: master
-  edge:
-    branch: pages-ivar-set # https://github.com/travis-ci/travis-ci/issues/9312
