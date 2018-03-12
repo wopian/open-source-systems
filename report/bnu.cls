@@ -11,8 +11,8 @@
 \RequirePackage{enumitem}
 \RequirePackage[useregional]{datetime2}
 % Image
+\RequirePackage{float}
 \RequirePackage{graphicx}
-\graphicspath{{img/}}
 % Chapter, Part and Section numbering
 \RequirePackage{tocloft}
 \RequirePackage{titlesec}
@@ -23,7 +23,7 @@
 \titleformat{\chapter}[display]
 {\centering\normalfont\Large\bfseries}{\chaptername\ \thechapter}{0.8em}{\LARGE}
 \renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
-\addto\captionsbritish{\renewcommand{\contentsname}{\hfill\bfseries\LARGE Summary\hfill}}\addto\captionsbritish{\renewcommand{\listfigurename}{\hfill\bfseries\LARGE List of Source Code}}
+\addto\captionsbritish{\renewcommand{\contentsname}{\hfill\bfseries\LARGE Summary\hfill}}\addto\captionsbritish{\renewcommand{\listfigurename}{\hfill\bfseries\LARGE List of Figures}}
 \addto\captionsbritish{\renewcommand{\listtablename}{\hfill\bfseries\LARGE List of Tables}}
 \addto\captionsbritish{\renewcommand{\cftaftertoctitle}{\hfill}}
 \addto\captionsbritish{\renewcommand{\cftafterloftitle}{\hfill}}

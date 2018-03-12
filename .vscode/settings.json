@@ -17,7 +17,7 @@
     "spellright.language": "en-GB",
     "files.exclude": {
       "**/out": true,
-      "report/pyg": false
+      "report/pyg": true
     },
     "editor.wordWrap": "bounded",
     "material-icon-theme.hidesExplorerArrows": true,
@@ -27,4 +27,3 @@
       "bin": "config"
     }
   }
-  
