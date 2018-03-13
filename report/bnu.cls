@@ -53,7 +53,7 @@
 \RequirePackage{textcomp}
 % TODO notes
 % \fxnote, \fxwarning, \fxerror, \fxfatal
-\RequirePackage[status=draft,noinline,index,author=]{fixme}
+\RequirePackage[status=draft,noinline,author=]{fixme}
 \fxusetheme{color}
 % Detect footnotes split into next page
 \RequirePackage{fnbreak}

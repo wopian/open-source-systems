@@ -3,6 +3,59 @@
 \graphicspath{{4-sessions/images/}}
 
 \section{Exercise 1}
+\fxwarning{Missing images}
+
+The code has been ammended to properly display the widget order quantity on the confirmation page. This was the second most easiest method to implement as it only required starting a PHP Session in each of the scripts and using \texttt{\$\_SESSION} instead of \texttt{\$\_POST}.
+
+Cookies are the hardest (but still straight forward) implement as a function is used to set the cookies using \texttt{setcookie(key, value)} and then using \texttt{\$\_COOKIE} instead of \texttt{\$\_POST} to access the value.
+
+Hidden fields is the easiest method to implement as it only requires adding an extra field to the intermediary colour selection page that is hidden to the user.
+
+\url{http://intweb.bucks.ac.uk/~21606555/oos/4-sessions/ex1.html}
+
+\captionsetup{type=figure}\captionof{figure}{ex1.html}
+\subfile{pyg/src/4-sessions/ex1}
+
+\captionsetup{type=figure}\captionof{figure}{ex1-colour.php using session variables}
+\subfile{pyg/src/4-sessions/ex1-colour}
+
+\captionsetup{type=figure}\captionof{figure}{ex1-confirm.php using session variables}
+\subfile{pyg/src/4-sessions/ex1-confirm}
+
 \section{Exercise 2}
+\fxwarning{Missing images}
+
+Price has been added to \texttt{ex1.html} and stored as a session variable so it can be used on the confirmation page.
+
+\url{http://intweb.bucks.ac.uk/~21606555/oos/4-sessions/ex2.html}
+
+\captionsetup{type=figure}\captionof{figure}{ex2.html}
+\subfile{pyg/src/4-sessions/ex2}
+
+\captionsetup{type=figure}\captionof{figure}{ex2-colour.php setting price session variable}
+\subfile{pyg/src/4-sessions/ex2-colour}
+
+\captionsetup{type=figure}\captionof{figure}{ex2-confirm.php displaying price}
+\subfile{pyg/src/4-sessions/ex2-confirm}
+
 \section{Exercise 3}
+\fxwarning{Missing images}
+
+The price has been removed from \texttt{ex3.html} and added to a new page \texttt{ex3-size.php}. This includes a dropdown to select the size of widgets. I decided to include the price in the dropdown (\texttt{Small (£15.75)}) which is then split when the data is stored in session variables. This avoids having to use a switch statement and keeps the sizing and pricing data in the same place for easier modification.
+
+\url{http://intweb.bucks.ac.uk/~21606555/oos/4-sessions/ex3.html}
+
+\captionsetup{type=figure}\captionof{figure}{ex3.html}
+\subfile{pyg/src/4-sessions/ex3}
+
+\captionsetup{type=figure}\captionof{figure}{ex3-size.php}
+\subfile{pyg/src/4-sessions/ex3-size}
+
+\captionsetup{type=figure}\captionof{figure}{ex3-colour.php}
+\subfile{pyg/src/4-sessions/ex3-colour}
+
+\captionsetup{type=figure}\captionof{figure}{ex3-confirm.php}
+\subfile{pyg/src/4-sessions/ex3-confirm}
+
 \section{Exercise 4}
+\fxerror{Not completed}
