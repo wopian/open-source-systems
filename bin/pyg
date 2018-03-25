@@ -14,7 +14,11 @@ if ! [ -x "$(command -v pygmentize -V)" ]; then
   echo -e "${red}error:${reset} pygments is not installed. Install with ${yellow}conda install pygments${reset}"
   exit 1
 fi
+
+if [ "$TRAVIS" = true ]; then echo "travis_fold:start:pyg"; fi
+
 mkdir -p $pyg
+
 # Copy definitions for LaTeX
 if ! [ -f "$pyg/definitions.cache" ]; then
   defs=$(python3 "$bin/pyg_defs")
@@ -23,8 +27,9 @@ if ! [ -f "$pyg/definitions.cache" ]; then
 else
   defs=$(<"$pyg/definitions.cache")
 fi
+
 # Generate syntax highlighting for PHP and HTML files
-for file in $(find "$root/src" \( -name '*.php' -o -name '*.html' \) -print)
+for file in $(find "$root/src/"* -print)
 do
   FILE="${file#$root/}"
   DIR=$(dirname "${FILE}")
@@ -39,3 +44,5 @@ do
     echo -e "${green}pygmented: ${black}$DIR/${reset}${yellow}$NAME.$EXT${reset}"
   fi
 done
+
+if [ "$TRAVIS" = true ]; then echo "travis_fold:end:pyg"; fi
