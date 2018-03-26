@@ -1,29 +1,39 @@
 {
-    "latex-workshop.latex.toolchain": [
-      {
-        "command": "bash",
-        "args": [
-          "-i",
-          "../bin/report"
-        ]
-      }
-    ],
-    "latex-workshop.latex.outputDir": "out",
-    "latex-workshop.latex.clean.enabled": false,
-    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
-    "latex-workshop.latex.autoBuild.onSave.enabled": true,
-    "latex-workshop.latex.autoBuild.onTexChange.enabled": false,
-    "spellright.groupDictionaries": false,
-    "spellright.language": "en-GB",
-    "files.exclude": {
-      "**/out": true,
-      "report/pyg": true
-    },
-    "editor.wordWrap": "bounded",
-    "material-icon-theme.hidesExplorerArrows": true,
-    "material-icon-theme.folders.associations": {
-      "report": "docs",
-      "pyg": "temp",
-      "bin": "config"
+  "latex-workshop.latex.tools": [
+    {
+      "name": "tectonic",
+      "command": "bash",
+      "args": [
+        "-i",
+        "../bin/report"
+      ]
     }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "Build LaTeX",
+      "tools": [
+        "tectonic"
+      ]
+    }
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.outputDir": "out",
+  "latex-workshop.latex.clean.enabled": false,
+  "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+  "latex-workshop.latex.autoBuild.onSave.enabled": true,
+  "latex-workshop.latex.autoBuild.onTexChange.enabled": false,
+  "spellright.groupDictionaries": false,
+  "spellright.language": "en-GB",
+  "files.exclude": {
+    "**/out": true,
+    "report/pyg": true
+  },
+  "editor.wordWrap": "bounded",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.associations": {
+    "report": "docs",
+    "pyg": "temp",
+    "bin": "config"
   }
+}
