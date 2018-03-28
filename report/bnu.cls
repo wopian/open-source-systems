@@ -78,8 +78,18 @@
   \@thefnmark\hspace{0.8em}}%       or after \@thefnmark, aligning the footnote
   #1}%                  marks to the right or to the left, respectively
 \makeatother
-\setlength{\parindent}{0em} % 0.2cm
+\linespread{1.1}
+%\setlength{\parindent}{0em} % 0.2cm
 \setlength{\parskip}{1em}
 \setlength{\footnotesep}{1.1em}
 \hbadness=10000
 \hfuzz=50pt
+
+% Module Code, Module Name
+\newcommand{\module}[2]{\Large#1\\#2\\}
+% Coursework Title
+\newcommand{\coursework}[1]{\vspace*{.65cm}\huge#1\\\vfill}
+% Student IDs
+\newcommand{\studentID}[1]{\textit{#1}}
+% Course, University
+\newcommand{\course}[2]{\vfill\textbf\today\\\vspace*{.75cm}\textit{#1}\\#2}
