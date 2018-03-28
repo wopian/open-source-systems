@@ -29,7 +29,7 @@ else
 fi
 
 # Generate syntax highlighting for PHP and HTML files
-for file in $(find "$root/src/"* -print)
+for file in $(find "$root/src/"* -type f -print)
 do
   FILE="${file#$root/}"
   DIR=$(dirname "${FILE}")
