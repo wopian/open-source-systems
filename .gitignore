@@ -1,3 +1,4 @@
 report/out
 report/pyg
 *.pdf
+*.uml~
