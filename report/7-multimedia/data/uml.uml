@@ -62,7 +62,7 @@
 			CodeGeneration
 		</plugin>
 </profile>
-<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Mar 28 11:48:12 BST 2018'>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Wed Mar 28 12:30:33 BST 2018'>
   <XMI.header>    <XMI.documentation>
       <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
       <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
@@ -1340,7 +1340,7 @@
       name="Sequence Diagram"
 >
   <group name="Fig0"
-       description="org.argouml.sequence2.diagram.FigClassifierRole[200, 120, 99, 1438]pathVisible=false;stereotypeView=0;"
+       description="org.argouml.sequence2.diagram.FigClassifierRole[200, 120, 99, 608]pathVisible=false;stereotypeView=0;"
        href="127-0-1-1--53120ed0:1626c138093:-8000:000000000000086C"
        fill="1"
        fillcolor="white"
@@ -1354,7 +1354,7 @@
       x="200"
       y="120"
       width="99"
-      height="1438"
+      height="608"
       fill="0"
       fillcolor="white"
       stroke="0"
@@ -1372,7 +1372,7 @@
       strokecolor="black"
     />
     <group name="Fig0.2"
-         description="org.argouml.sequence2.diagram.FigLifeLine[200, 226, 99, 1331]"
+         description="org.argouml.sequence2.diagram.FigLifeLine[200, 226, 99, 501]"
          href="127-0-1-1--53120ed0:1626c138093:-8000:000000000000086C"
          fill="1"
          fillcolor="white"
@@ -1386,7 +1386,7 @@
         x="200"
         y="226"
         width="99"
-        height="1331"
+        height="501"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1402,10 +1402,10 @@
         <moveto x="249"
                 y="226" />
         <lineto x="249"
-                y="1557" />
+                y="727" />
       </path>
       <group name="Fig0.2.2"
-           description="org.argouml.sequence2.diagram.FigActivation[239, 226, 20, 1331]"
+           description="org.argouml.sequence2.diagram.FigActivation[239, 226, 20, 501]"
            href="127-0-1-1--53120ed0:1626c138093:-8000:000000000000086C"
            fill="1"
            fillcolor="white"
@@ -1419,7 +1419,7 @@
           x="239"
           y="226"
           width="20"
-          height="1331"
+          height="501"
           fill="1"
           fillcolor="white"
           stroke="1"
@@ -1489,7 +1489,7 @@
     </group>
   </group>
   <group name="Fig1"
-       description="org.argouml.sequence2.diagram.FigClassifierRole[408, 120, 65, 1435]pathVisible=false;stereotypeView=0;"
+       description="org.argouml.sequence2.diagram.FigClassifierRole[408, 120, 65, 608]pathVisible=false;stereotypeView=0;"
        href="127-0-1-1--53120ed0:1626c138093:-8000:000000000000086F"
        fill="1"
        fillcolor="white"
@@ -1503,7 +1503,7 @@
       x="408"
       y="120"
       width="65"
-      height="1435"
+      height="608"
       fill="0"
       fillcolor="white"
       stroke="0"
@@ -1521,7 +1521,7 @@
       strokecolor="black"
     />
     <group name="Fig1.2"
-         description="org.argouml.sequence2.diagram.FigLifeLine[408, 426, 65, 1128]"
+         description="org.argouml.sequence2.diagram.FigLifeLine[408, 426, 65, 301]"
          href="127-0-1-1--53120ed0:1626c138093:-8000:000000000000086F"
          fill="1"
          fillcolor="white"
@@ -1535,7 +1535,7 @@
         x="408"
         y="426"
         width="65"
-        height="1128"
+        height="301"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1551,10 +1551,10 @@
         <moveto x="440"
                 y="426" />
         <lineto x="440"
-                y="1554" />
+                y="727" />
       </path>
       <group name="Fig1.2.2"
-           description="org.argouml.sequence2.diagram.FigActivation[430, 426, 20, 1128]"
+           description="org.argouml.sequence2.diagram.FigActivation[430, 426, 20, 301]"
            href="127-0-1-1--53120ed0:1626c138093:-8000:000000000000086F"
            fill="1"
            fillcolor="white"
@@ -1568,7 +1568,7 @@
           x="430"
           y="426"
           width="20"
-          height="1128"
+          height="301"
           fill="1"
           fillcolor="white"
           stroke="1"
@@ -1638,7 +1638,7 @@
     </group>
   </group>
   <group name="Fig2"
-       description="org.argouml.sequence2.diagram.FigClassifierRole[40, 120, 65, 1427]pathVisible=false;stereotypeView=1;"
+       description="org.argouml.sequence2.diagram.FigClassifierRole[40, 120, 65, 608]pathVisible=false;stereotypeView=0;"
        href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000875"
        fill="1"
        fillcolor="white"
@@ -1652,7 +1652,7 @@
       x="40"
       y="120"
       width="65"
-      height="1427"
+      height="608"
       fill="0"
       fillcolor="white"
       stroke="0"
@@ -1670,7 +1670,7 @@
       strokecolor="black"
     />
     <group name="Fig2.2"
-         description="org.argouml.sequence2.diagram.FigLifeLine[40, 169, 65, 1377]"
+         description="org.argouml.sequence2.diagram.FigLifeLine[40, 169, 65, 563]"
          href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000875"
          fill="1"
          fillcolor="white"
@@ -1684,7 +1684,7 @@
         x="40"
         y="169"
         width="65"
-        height="1377"
+        height="558"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1854,7 +1854,7 @@
     </path>
   </group>
   <group name="Fig4"
-       description="org.argouml.sequence2.diagram.FigClassifierRole[600, 120, 65, 1437]pathVisible=false;stereotypeView=0;"
+       description="org.argouml.sequence2.diagram.FigClassifierRole[592, 120, 64, 608]pathVisible=false;stereotypeView=0;"
        href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000882"
        fill="1"
        fillcolor="white"
@@ -1865,10 +1865,10 @@
     </private>
     
     <rectangle name="Fig4.0"
-      x="600"
+      x="592"
       y="120"
-      width="65"
-      height="1437"
+      width="64"
+      height="608"
       fill="0"
       fillcolor="white"
       stroke="0"
@@ -1876,9 +1876,9 @@
       visibility="0"
     />
     <rectangle name="Fig4.1"
-      x="600"
+      x="592"
       y="120"
-      width="65"
+      width="64"
       height="97"
       fill="0"
       fillcolor="white"
@@ -1886,7 +1886,7 @@
       strokecolor="black"
     />
     <group name="Fig4.2"
-         description="org.argouml.sequence2.diagram.FigLifeLine[600, 266, 65, 1290]"
+         description="org.argouml.sequence2.diagram.FigLifeLine[592, 266, 64, 461]"
          href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000882"
          fill="1"
          fillcolor="white"
@@ -1897,10 +1897,10 @@
       </private>
       
       <rectangle name="Fig4.2.0"
-        x="600"
+        x="592"
         y="266"
-        width="65"
-        height="1290"
+        width="64"
+        height="461"
         fill="0"
         fillcolor="white"
         stroke="0"
@@ -1913,13 +1913,13 @@
         stroke="1"
         strokecolor="black"
       >
-        <moveto x="632"
+        <moveto x="624"
                 y="266" />
-        <lineto x="632"
-                y="1556" />
+        <lineto x="624"
+                y="727" />
       </path>
       <group name="Fig4.2.2"
-           description="org.argouml.sequence2.diagram.FigActivation[622, 266, 20, 1290]"
+           description="org.argouml.sequence2.diagram.FigActivation[614, 266, 20, 461]"
            href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000882"
            fill="1"
            fillcolor="white"
@@ -1930,10 +1930,10 @@
         </private>
         
         <rectangle name="Fig4.2.2.0"
-          x="622"
+          x="614"
           y="266"
           width="20"
-          height="1290"
+          height="461"
           fill="1"
           fillcolor="white"
           stroke="1"
@@ -1942,7 +1942,7 @@
       </group>
     </group>
     <group name="Fig4.3"
-         description="org.argouml.sequence2.diagram.FigHead[600, 217, 65, 50]"
+         description="org.argouml.sequence2.diagram.FigHead[592, 217, 64, 50]"
          href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000882"
          fill="1"
          fillcolor="white"
@@ -1953,9 +1953,9 @@
       </private>
       
       <rectangle name="Fig4.3.0"
-        x="600"
+        x="592"
         y="217"
-        width="65"
+        width="64"
         height="50"
         fill="1"
         fillcolor="white"
@@ -1963,9 +1963,9 @@
         strokecolor="black"
       />
       <text name="Fig4.3.1"
-        x="600"
+        x="592"
         y="217"
-        width="65"
+        width="64"
         height="22"
         fill="0"
         fillcolor="white"
@@ -1979,7 +1979,7 @@
         justification="Center"
       >/Database</text>
       <group name="Fig4.3.2"
-           description="org.argouml.uml.diagram.ui.FigStereotypesGroup[600, 217, 65, 0]"
+           description="org.argouml.uml.diagram.ui.FigStereotypesGroup[592, 217, 64, 0]"
            href="127-0-1-1--53120ed0:1626c138093:-8000:0000000000000882"
            fill="0"
            fillcolor="white"
@@ -1990,9 +1990,9 @@
         </private>
         
         <rectangle name="Fig4.3.2.0"
-          x="600"
+          x="592"
           y="217"
-          width="65"
+          width="64"
           height="0"
           fill="0"
           fillcolor="white"
@@ -2122,7 +2122,7 @@
     >
       <moveto x="259"
               y="322" />
-      <lineto x="622"
+      <lineto x="614"
               y="322" />
     </path>
   </group>
@@ -2151,7 +2151,7 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="622"
+      <moveto x="614"
               y="354" />
       <lineto x="259"
               y="354" />
@@ -2184,7 +2184,7 @@
     >
       <moveto x="259"
               y="242" />
-      <lineto x="600"
+      <lineto x="592"
               y="242" />
     </path>
   </group>
@@ -2213,7 +2213,7 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="622"
+      <moveto x="614"
               y="290" />
       <lineto x="259"
               y="290" />
@@ -2246,7 +2246,7 @@
     >
       <moveto x="450"
               y="450" />
-      <lineto x="622"
+      <lineto x="614"
               y="450" />
     </path>
   </group>
@@ -2275,7 +2275,7 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="622"
+      <moveto x="614"
               y="476" />
       <lineto x="450"
               y="476" />
@@ -2308,7 +2308,7 @@
     >
       <moveto x="450"
               y="506" />
-      <lineto x="622"
+      <lineto x="614"
               y="506" />
     </path>
   </group>
@@ -2337,7 +2337,7 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="622"
+      <moveto x="614"
               y="530" />
       <lineto x="450"
               y="530" />
@@ -2370,7 +2370,7 @@
     >
       <moveto x="450"
               y="602" />
-      <lineto x="622"
+      <lineto x="614"
               y="602" />
     </path>
   </group>
@@ -2399,7 +2399,7 @@
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="622"
+      <moveto x="614"
               y="626" />
       <lineto x="450"
               y="626" />
@@ -2424,7 +2424,7 @@
                         offset="10" />
     </private>
     <path name="Fig18.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="black"
       stroke="1"
@@ -2432,7 +2432,7 @@
     >
       <moveto x="450"
               y="648" />
-      <lineto x="622"
+      <lineto x="614"
               y="648" />
     </path>
   </group>
@@ -2455,7 +2455,7 @@
                         offset="10" />
     </private>
     <path name="Fig19.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="black"
       stroke="1"
@@ -2486,7 +2486,7 @@
                         offset="10" />
     </private>
     <path name="Fig20.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="white"
       stroke="1"
@@ -2517,13 +2517,13 @@
                         offset="10" />
     </private>
     <path name="Fig21.0"
-      description="org.tigris.gef.presentation.FigPoly"
+      description="org.argouml.gefext.ArgoFigPoly"
       fill="0"
       fillcolor="white"
       stroke="1"
       strokecolor="black"
     >
-      <moveto x="622"
+      <moveto x="614"
               y="672" />
       <lineto x="450"
               y="672" />
